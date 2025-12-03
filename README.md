@@ -17,3 +17,6 @@
 
 - Nhóm tuổi 29–45 chỉ chiếm 29.91% số khách nhưng đóng góp tới 200K USD (chiếm 30% tổng doanh thu) và có AOV cao nhất → đây chính là “golden segment” cần tập trung marketing & retention mạnh nhất.
 ![image alt](https://github.com/NTThanh0405/E_commerce/blob/b25c1ee0f530f0672d26d2db794077cbf60bb8f4/images/trend_customers.png)
+
+- Cohort tháng 1-2021 có tỷ lệ quay lại tháng thứ 12 cao nhất (2.61%) – gấp hơn 20 lần trung bình → những khách mua vào tháng 1 “sticky”, cần phân tích ngay họ mua gì, từ kênh nào để nhân bản cohort này
+![image alt](https://github.com/NTThanh0405/E_commerce/blob/1fc58c007c3b63286da8fea4c25f9981c081de00/images/corhot.png)
