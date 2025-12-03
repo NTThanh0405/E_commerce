@@ -19,4 +19,4 @@
 ![image alt](https://github.com/NTThanh0405/E_commerce/blob/b25c1ee0f530f0672d26d2db794077cbf60bb8f4/images/trend_customers.png)
 
 - Khách mới chiếm tỷ lệ thấp nhất vào tháng 10 (chỉ 96 người) nhưng lại là tháng có lượng khách cũ cao nhất (418) → tháng 10 retention cực mạnh, chứng tỏ chương trình giữ chân cuối năm (Black Friday/reminder) đang hoạt động rất tốt
-![image alt](https://github.com/NTThanh0405/E_commerce/blob/1fc58c007c3b63286da8fea4c25f9981c081de00/images/corhot.png)
+![image alt](https://github.com/NTThanh0405/E_commerce/blob/cce3d8f448def6a35482b02f0532cf83fa2bdf36/images/corhot.png)
