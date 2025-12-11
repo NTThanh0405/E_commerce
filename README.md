@@ -48,8 +48,15 @@
 → Chỉ **25** khách hàng trung thành bị nhầm là churn (rất thấp)  
 → Phát hiện được **185/299** khách thực sự churn (khoảng 62%)
 
-#### yếu tố ảnh hưởng (theo hệ số Logistic Regression)
+### Phân tích mối quan hệ & tầm quan trọng của các biến
+#### Heatmap tương quan (Pearson Correlation) – Nhìn nhanh mối liên hệ tuyến tính
 ![image alt](https://github.com/NTThanh0405/E_commerce/blob/a636f7e438ae4d573cbf213b07681f5d3555e8ef/images/heatmap.png)
+**Nhận xét nhanh:**
+- Recency có tương quan dương mạnh nhất với churn (+0.27) → khách càng lâu không mua càng dễ rời bỏ
+- Frequency và Monetary tương quan rất mạnh với nhau (+0.66) → hiện tượng đa cộng tuyến
+- Age gần như không liên quan đến bất kỳ biến nào
+
+#### Tầm quan trọng thực tế của từng biến (theo hệ số Logistic Regression đa biến)
 | Biến         | Hệ số          | Ý nghĩa                                                                 |
 |--------------|----------------|-------------------------------------------------------------------------|
 | **frequency**| **–1.83**      | Mua càng thường xuyên → nguy cơ churn **giảm cực mạnh** (yếu tố quan trọng nhất) |
