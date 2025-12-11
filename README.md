@@ -49,7 +49,7 @@
 → Phát hiện được **185/299** khách thực sự churn (khoảng 62%)
 
 #### yếu tố ảnh hưởng (theo hệ số Logistic Regression)
-![image alt](https://github.com/NTThanh0405/E_commerce/blob/b3342a16fb751eb6a4a01475e659071d6b1a5a24/images/customers.png)
+![image alt](https://github.com/NTThanh0405/E_commerce/blob/a636f7e438ae4d573cbf213b07681f5d3555e8ef/images/heatmap.png)
 | Biến         | Hệ số          | Ý nghĩa                                                                 |
 |--------------|----------------|-------------------------------------------------------------------------|
 | **frequency**| **–1.83**      | Mua càng thường xuyên → nguy cơ churn **giảm cực mạnh** (yếu tố quan trọng nhất) |
@@ -61,4 +61,4 @@
 - **Frequency** là yếu tố **quan trọng nhất** quyết định khách hàng có trung thành hay không → EchoMart nên tập trung mạnh vào việc khuyến khích mua lặp lại.
 - Recency vẫn có tác động, nhưng yếu hơn frequency nhiều.
 - Monetary và Age hầu như không đóng góp vào việc dự đoán churn trong dữ liệu này.
-![image alt](https://github.com/NTThanh0405/E_commerce/blob/b3342a16fb751eb6a4a01475e659071d6b1a5a24/images/customers.png)
+![image alt](https://github.com/NTThanh0405/E_commerce/blob/a636f7e438ae4d573cbf213b07681f5d3555e8ef/images/predict_model.png)
