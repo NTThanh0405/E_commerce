@@ -1,4 +1,43 @@
-# E_commerce
+# E_commerce – Phân tích dữ liệu & Dự đoán Churn cho EchoMart
+
+##  Giới thiệu đề bài
+
+EchoMart là một nền tảng thương mại điện tử đa quốc gia, kinh doanh nhiều danh mục sản phẩm (Electronics, Sports, ...).  
+Trong năm 2025, công ty ghi nhận doanh thu khoảng **662.3K USD**, với Gross Profit Margin trung bình **30.33%**.  
+
+Tuy nhiên, doanh nghiệp đang đối mặt với một số thách thức:
+- Doanh thu có xu hướng giảm mạnh từ tháng 1 đến tháng 6.
+- Tỷ lệ khách hàng rời bỏ (Churn) cao và cần được dự đoán sớm.
+- Hiệu quả marketing & retention chưa tối ưu theo từng phân khúc khách hàng và thị trường.
+- Chính sách giảm giá chưa thực sự mang lại hiệu quả tương xứng với chi phí.
+
+Đề bài yêu cầu thực hiện **phân tích dữ liệu toàn diện** về hoạt động kinh doanh của EchoMart năm 2025, từ đó đưa ra các insight hành động được và xây dựng mô hình dự đoán khách hàng có nguy cơ churn.
+
+## Bài toán cần giải quyết
+
+1. **Phân tích hiệu quả kinh doanh (Business Performance)**
+   - Phân tích doanh thu, lợi nhuận theo tháng, theo thị trường (US, FR, ...), theo danh mục sản phẩm.
+   - Đánh giá hiệu quả của các chiến dịch giảm giá và hành vi người dùng trên website (Add-to-Cart Rate).
+
+2. **Phân tích khách hàng (Customer Analytics)**
+   - Phân khúc khách hàng (RFM, Mass vs Risky, theo độ tuổi).
+   - Phân tích Cohort & Retention để hiểu hành vi mua lại.
+   - Xác định “Golden Segment” cần tập trung retention và marketing.
+
+3. **Dự đoán khách hàng rời bỏ (Churn Prediction)**
+   - Xây dựng mô hình Machine Learning (Logistic Regression) để dự đoán khách hàng có nguy cơ churn.
+   - Đánh giá tầm quan trọng của các biến (Recency, Frequency, Monetary, Age).
+   - Đưa ra khuyến nghị hành động cụ thể để giảm tỷ lệ churn.
+
+4. **Đưa ra đề xuất chiến lược**
+   - Chiến lược marketing theo thị trường & phân khúc.
+   - Chiến lược giữ chân khách hàng (Retention).
+   - Tối ưu chính sách giảm giá.
+
+---
+
+## Kết quả phân tích Dashboard
+
 ### dashboard revenue
 - US chỉ chiếm 18.4% số đơn nhưng đóng góp 18.17% doanh thu với AOV chỉ 133.88 USD – trong khi FR chỉ 6.8% số đơn nhưng AOV cao nhất 142.42 USD → thị trường Pháp siêu hiệu quả về lợi nhuận.
 - Doanh thu tháng 1/2025 đạt 80K USD (cao nhất năm), nhưng tháng 6 giảm mạnh còn 60K → mất 25% doanh thu chỉ trong 5 tháng → cần campaign mùa hè gấp.
